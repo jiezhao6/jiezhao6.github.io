@@ -3,6 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    text-align: center; /* 添加这一行使所有内容居中对齐 */
 }
 
 header {
@@ -23,6 +24,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: inline-block; /* 添加这一行使导航居中对齐 */
 }
 
 nav ul li {
@@ -39,6 +41,8 @@ section {
     padding: 2rem;
     margin: 1rem auto;
     max-width: 800px;
+    display: inline-block; /* 添加这一行使每个部分居中对齐 */
+    text-align: left; /* 添加这一行使每个部分内部的文本左对齐 */
 }
 
 footer {
@@ -46,7 +50,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    position: absolute;
+    position: relative; /* 修改这一行使页脚不覆盖内容 */
     bottom: 0;
     width: 100%;
 }
